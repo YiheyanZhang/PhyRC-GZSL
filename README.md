@@ -7,7 +7,7 @@ PhyRC-GZSL performs strictly inductive hyperspectral generalized zero-shot learn
 ## Repository layout
 
 ```text
-phyrc_gzsl/
+PhyRC-GZSL/
 ├── configs/       Dataset and protocol configuration
 ├── data/processed Class-level attributes used by the experiments
 ├── models/        Spectral backbone definitions
@@ -24,41 +24,41 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-Place each downloaded hyperspectral dataset under `phyrc_gzsl/data/raw/` using the paths declared in `phyrc_gzsl/configs/*.yaml`. Raw datasets and trained weights are intentionally not redistributed; see `phyrc_gzsl/data/README.md` for the exact layout.
+Place each downloaded hyperspectral dataset under `data/raw/` using the paths declared in `configs/*.yaml`. Raw datasets and trained weights are intentionally not redistributed; see `data/README.md` for the exact layout.
 
 ## Usage
 
 Train a seen-only backbone:
 
 ```bash
-python -m phyrc_gzsl.train_spectral_mae --config phyrc_gzsl/configs/paviau_p1.yaml
+python -m train_spectral_mae --config configs/paviau_p1.yaml
 ```
 
 Evaluate PhyRC-GZSL with a trained backbone:
 
 ```bash
-python -m phyrc_gzsl.evaluate_phyrc \
-  --config phyrc_gzsl/configs/paviau_p1.yaml \
-  --attributes phyrc_gzsl/data/processed/PaviaU_structured_attributes.json \
+python -m evaluate_phyrc \
+  --config configs/paviau_p1.yaml \
+  --attributes data/processed/PaviaU_structured_attributes.json \
   --unseen-classes 1 2 3 4 5 6 7 8 9 \
-  --backbone-pattern phyrc_gzsl/checkpoints/paviau_p1_backbone_s{unseen}.pt \
-  --output phyrc_gzsl/checkpoints/paviau_phyrc_single_unseen.json
+  --backbone-pattern checkpoints/paviau_p1_backbone_s{unseen}.pt \
+  --output checkpoints/paviau_phyrc_single_unseen.json
 ```
 
 Generate the fixed Indian Pines experiment manifest without training:
 
 ```bash
-python -m phyrc_gzsl.run_indian_pines_submission
+python -m run_indian_pines_submission
 ```
 
 Run the source-only checks:
 
 ```bash
-python -m pytest phyrc_gzsl/tests -q
+python -m pytest tests -q
 python test_release_layout.py
 ```
 
-Paper-facing aggregate JSON files are retained under `phyrc_gzsl/checkpoints/`; model weights are excluded. Baseline adapters and their upstream license files remain under `phyrc_gzsl/baseline/`.
+Paper-facing aggregate JSON files are retained under `checkpoints/`; model weights are excluded. Baseline adapters and their upstream license files remain under `baseline/`.
 
 ## Anonymous-release notes
 
