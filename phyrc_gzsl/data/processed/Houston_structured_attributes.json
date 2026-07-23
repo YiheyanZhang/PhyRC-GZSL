@@ -1,0 +1,17 @@
+{
+  "1": {"brightness": 0.45, "visible_slope": 0.25, "green_peak": 0.95, "red_absorption": 0.95, "red_edge": 0.95, "nir_level": 0.90, "smoothness": 0.80, "variability": 0.20},
+  "2": {"brightness": 0.50, "visible_slope": 0.35, "green_peak": 0.65, "red_absorption": 0.75, "red_edge": 0.65, "nir_level": 0.65, "smoothness": 0.65, "variability": 0.35},
+  "3": {"brightness": 0.50, "visible_slope": 0.15, "green_peak": 0.80, "red_absorption": 0.45, "red_edge": 0.25, "nir_level": 0.45, "smoothness": 0.90, "variability": 0.15},
+  "4": {"brightness": 0.35, "visible_slope": 0.10, "green_peak": 0.85, "red_absorption": 0.90, "red_edge": 0.95, "nir_level": 0.90, "smoothness": 0.45, "variability": 0.50},
+  "5": {"brightness": 0.60, "visible_slope": 0.70, "green_peak": 0.20, "red_absorption": 0.15, "red_edge": 0.10, "nir_level": 0.55, "smoothness": 0.65, "variability": 0.40},
+  "6": {"brightness": 0.15, "visible_slope": -0.20, "green_peak": 0.20, "red_absorption": 0.10, "red_edge": 0.05, "nir_level": 0.02, "smoothness": 0.95, "variability": 0.10},
+  "7": {"brightness": 0.55, "visible_slope": 0.20, "green_peak": 0.25, "red_absorption": 0.20, "red_edge": 0.10, "nir_level": 0.45, "smoothness": 0.35, "variability": 0.75},
+  "8": {"brightness": 0.60, "visible_slope": 0.25, "green_peak": 0.20, "red_absorption": 0.15, "red_edge": 0.08, "nir_level": 0.50, "smoothness": 0.45, "variability": 0.65},
+  "9": {"brightness": 0.35, "visible_slope": 0.10, "green_peak": 0.10, "red_absorption": 0.10, "red_edge": 0.05, "nir_level": 0.25, "smoothness": 0.85, "variability": 0.20},
+  "10": {"brightness": 0.30, "visible_slope": 0.08, "green_peak": 0.08, "red_absorption": 0.08, "red_edge": 0.04, "nir_level": 0.20, "smoothness": 0.90, "variability": 0.15},
+  "11": {"brightness": 0.30, "visible_slope": 0.15, "green_peak": 0.12, "red_absorption": 0.10, "red_edge": 0.05, "nir_level": 0.25, "smoothness": 0.40, "variability": 0.65},
+  "12": {"brightness": 0.45, "visible_slope": 0.20, "green_peak": 0.12, "red_absorption": 0.10, "red_edge": 0.05, "nir_level": 0.30, "smoothness": 0.90, "variability": 0.15},
+  "13": {"brightness": 0.65, "visible_slope": 0.55, "green_peak": 0.15, "red_absorption": 0.10, "red_edge": 0.08, "nir_level": 0.50, "smoothness": 0.75, "variability": 0.35},
+  "14": {"brightness": 0.45, "visible_slope": 0.20, "green_peak": 0.45, "red_absorption": 0.35, "red_edge": 0.20, "nir_level": 0.40, "smoothness": 0.90, "variability": 0.15},
+  "15": {"brightness": 0.50, "visible_slope": 0.40, "green_peak": 0.10, "red_absorption": 0.25, "red_edge": 0.10, "nir_level": 0.35, "smoothness": 0.90, "variability": 0.10}
+}

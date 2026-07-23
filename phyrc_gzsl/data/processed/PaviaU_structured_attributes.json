@@ -1,0 +1,92 @@
+{
+  "1": {
+    "brightness": 0.2,
+    "visible_slope": 0.6,
+    "green_peak": 0.1,
+    "red_absorption": 0.1,
+    "red_edge": 0.05,
+    "nir_level": 0.15,
+    "smoothness": 0.7,
+    "variability": 0.2
+  },
+  "2": {
+    "brightness": 0.45,
+    "visible_slope": 0.4,
+    "green_peak": 0.9,
+    "red_absorption": 0.9,
+    "red_edge": 0.95,
+    "nir_level": 0.85,
+    "smoothness": 0.3,
+    "variability": 0.8
+  },
+  "3": {
+    "brightness": 0.5,
+    "visible_slope": 0.8,
+    "green_peak": 0.2,
+    "red_absorption": 0.15,
+    "red_edge": 0.1,
+    "nir_level": 0.5,
+    "smoothness": 0.8,
+    "variability": 0.2
+  },
+  "4": {
+    "brightness": 0.4,
+    "visible_slope": 0.4,
+    "green_peak": 0.85,
+    "red_absorption": 0.9,
+    "red_edge": 0.9,
+    "nir_level": 0.8,
+    "smoothness": 0.3,
+    "variability": 0.8
+  },
+  "5": {
+    "brightness": 0.8,
+    "visible_slope": 0.6,
+    "green_peak": 0.1,
+    "red_absorption": 0.1,
+    "red_edge": 0.1,
+    "nir_level": 0.8,
+    "smoothness": 0.9,
+    "variability": 0.4
+  },
+  "6": {
+    "brightness": 0.6,
+    "visible_slope": 0.9,
+    "green_peak": 0.2,
+    "red_absorption": 0.1,
+    "red_edge": 0.1,
+    "nir_level": 0.7,
+    "smoothness": 0.7,
+    "variability": 0.2
+  },
+  "7": {
+    "brightness": 0.1,
+    "visible_slope": 0.5,
+    "green_peak": 0.05,
+    "red_absorption": 0.05,
+    "red_edge": 0.05,
+    "nir_level": 0.1,
+    "smoothness": 0.8,
+    "variability": 0.1
+  },
+  "8": {
+    "brightness": 0.5,
+    "visible_slope": 0.7,
+    "green_peak": 0.2,
+    "red_absorption": 0.2,
+    "red_edge": 0.15,
+    "nir_level": 0.6,
+    "smoothness": 0.8,
+    "variability": 0.3
+  },
+  "9": {
+    "brightness": 0.05,
+    "visible_slope": 0.5,
+    "green_peak": 0.1,
+    "red_absorption": 0.1,
+    "red_edge": 0.1,
+    "nir_level": 0.05,
+    "smoothness": 0.2,
+    "variability": 0.8
+  }
+}

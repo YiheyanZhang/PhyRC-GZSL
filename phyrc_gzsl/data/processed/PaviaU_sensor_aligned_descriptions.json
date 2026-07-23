@@ -1,0 +1,92 @@
+{
+  "1": {
+    "class_name": "Asphalt",
+    "descriptions": [
+      "Reflectance is very low (<0.08) and nearly flat across the entire range, with a slight positive slope from blue to NIR, no distinct absorption features, and no red-edge transition",
+      "The spectrum rises monotonically from ~0.04 at 430 nm to ~0.09 at 860 nm, exhibiting a gentle convex curvature, overall dark albedo, and absence of any sharp spectral bands or a vegetation-like red-edge inflection",
+      "Asphalt shows a dark, featureless curve with a gradual, near-linear increase in reflectance, a minimal concave upward bend (slope decreasing slightly at longer wavelengths), and a red-edge region that simply continues the same shallow trend without change",
+      "Reflectance remains below 10% throughout, with a subtle positive slope that steepens mildly beyond 700 nm, yet no discrete absorption or transition features are present, and the red-edge appears as a flat, non-vegetated continuation",
+      "The spectral signature is characterized by very low albedo (0.04–0.09), a slow, nearly constant increase in reflectance from 430 to 860 nm, a slightly convex overall shape, and a complete lack of any absorption dips or red-edge slope discontinuity"
+    ]
+  },
+  "2": {
+    "class_name": "Meadows",
+    "descriptions": [
+      "Low overall reflectance in the visible region (430-700 nm) with a distinct green peak near 550 nm, a steep red-edge slope from 700-760 nm, and a high, nearly flat NIR plateau from 760-860 nm",
+      "Moderate visible-band reflectance with a negative slope from blue to red due to strong chlorophyll absorption at 680 nm, a sharp positive curvature at the red-edge transition, and a slight dip near 820 nm from weak leaf water absorption",
+      "Visible reflectance is dominated by a broad green peak around 550 nm, with a pronounced concave shape between 450-680 nm, followed by a sigmoidal red-edge inflection at approximately 720 nm that transitions into a gradually rising NIR reflectance up to 860 nm",
+      "Reflectance increases sharply from a minimum near 680 nm to a maximum near 760 nm, creating a linear red-edge slope of high gradient, while the visible spectrum (430-680 nm) exhibits a shallow convex curvature with a secondary shoulder near 500 nm from carotenoids",
+      "The spectral signature shows moderate visible reflectance that is lowest in the red (670 nm) and highest in the green (550 nm), a steep and straight red-edge ramp from 700-750 nm, and a high NIR reflectance that remains constant from 760-860 nm with no discernible absorption features in that range"
+    ]
+  },
+  "3": {
+    "class_name": "Gravel",
+    "descriptions": [
+      "High reflectance overall (>0.4), visible-band slope moderately positive, curvature slightly convex, no distinct absorption features, red-edge absent as reflectance transitions smoothly into the near-infrared",
+      "Moderate reflectance (0.3–0.5), visible-band slope nearly flat, curvature slightly concave, a broad absorption trough centered near 550 nm due to ferric iron, and a steep rise between 600 and 700 nm mimicking a red-edge shape but without a vegetation inflection",
+      "Low reflectance (<0.2), visible-band slope flat to slightly negative, curvature convex, no sharp absorptions, only a subtle broad depression around 650–750 nm, and no red-edge behavior",
+      "High reflectance (>0.5), visible-band slope slightly negative from blue to green then increasing into red, curvature concave, a narrow absorption dip near 480 nm and a wider one near 600 nm, red-edge absent with a gradual increase into NIR",
+      "Moderate reflectance (0.2–0.4), visible-band slope strongly positive from 430 to 700 nm then flattening, curvature concave, a prominent broad absorption between 500 and 580 nm, and a sharp rise in the red that is not a true red-edge but an edge of iron oxide absorption"
+    ]
+  },
+  "4": {
+    "class_name": "Trees",
+    "descriptions": [
+      "Reflectance is below 10% from 430-500 nm and 660-680 nm, with a narrow green peak at 550 nm reaching 15%, and a rapid red-edge rise centered at 720 nm leading to a high NIR plateau (~50%) flat up to 860 nm",
+      "The spectral profile shows a convex curvature in the visible with a maximum at 550 nm, a deep concave absorption trough at 680 nm, and a linear red-edge slope from 680 nm to 750 nm; NIR reflectance is uniform around 48% with a slight concavity at 820 nm due to liquid water absorption",
+      "A sharp red-edge with an inflection point at 715 nm divides low visible reflectance (average 6%) from high NIR reflectance (52%), while the visible region exhibits a moderate positive slope from blue to green and a strong negative slope from green to red",
+      "Visible reflectance is dominated by chlorophyll absorption bands at 480 nm and 680 nm, causing two minima; between them a broad green peak creates a double-convex curvature; the red-edge is steep and sigmoidal, and the NIR region is featureless with constant reflectance of 45%",
+      "From 430 nm to 860 nm, the spectrum has three distinct sections: a low and slowly increasing visible reflectance from blue to green, a sharp decrease to a narrow red minimum, a rapid red-edge ascent, and a high NIR plateau; the only absorption feature is the chlorophyll a band centered at 680 nm with a full width at half maximum of about 20 nm"
+    ]
+  },
+  "5": {
+    "class_name": "Painted Metal Sheets",
+    "descriptions": [
+      "The pixel exhibits very high reflectance across the entire 430–860 nm range, with a slight positive slope from blue to near-infrared, almost linear curvature, no discernible absorption features, and no red-edge transition",
+      "Reflectance is low in the blue (430–480 nm) and increases steadily through the green and red bands, reaching a moderate plateau near 650 nm, followed by a slight convex curvature in the NIR, with a broad absorption feature centered around 550 nm and no red-edge",
+      "This spectrum shows medium reflectance with a prominent peak near 550 nm and two distinct absorption troughs around 480 nm and 680 nm, a concave curvature in the visible slope, then a gradual increase into the NIR producing a weak red-edge-like rise, and no additional absorption features beyond 700 nm",
+      "The pixel has uniformly very low reflectance (below 10%) across the full 430–860 nm range, the visible-band slope is nearly flat with minimal curvature, no detectable absorption bands, and the red-edge is absent",
+      "Reflectance is high in the blue (430–480 nm) then drops steeply through green and red to a low plateau at 600–700 nm, after which it rises moderately in the NIR with a concave curvature, showing an absorption feature near 580 nm and no sharp red-edge"
+    ]
+  },
+  "6": {
+    "class_name": "Bare Soil",
+    "descriptions": [
+      "Dry sandy soils show high overall reflectance (>0.4 from 500 nm upward) with a steep positive slope from 430 to 600 nm and a convex curvature flattening beyond 700 nm, no distinct red-edge inflection, and only a subtle ferric iron absorption near 500 nm",
+      "Moist clay soils exhibit low overall reflectance (<0.2 across the range), a moderate positive visible-band slope, concave curvature with a slight dip near 550 nm due to goethite, a gradual rise through the red-edge region without a sharp step, and a weak water absorption at 760 nm",
+      "Organic-rich loam has medium reflectance (0.25–0.35), a gentle positive slope from blue to green then a shallower increase after 600 nm, linear spectral curvature, no red-edge transition (reflectance climbs steadily into NIR), and a broad, shallow absorption centered around 480 nm from humic substances",
+      "Calcareous soil (high carbonate) displays very high reflectance (>0.5 in the NIR) with a nearly flat visible-band slope from 430 to 700 nm, slight convex curvature peaking near 550 nm, no red-edge feature, and a narrow absorption at 860 nm due to a weak iron charge transfer (tail of a deeper feature just beyond 860 nm)",
+      "Iron-rich laterite shows moderate reflectance (0.2–0.3 in the visible), a steep slope from 430 to 550 nm but a much shallower slope thereafter, strong convex curvature with a pronounced ferric iron absorption doublet at 480 and 520 nm, a flat red-edge region where reflectance barely increases between 700 and 800 nm, and a small water vapor absorption at 760 nm"
+    ]
+  },
+  "7": {
+    "class_name": "Bitumen",
+    "descriptions": [
+      "Reflectance is very low (below 4%) through the entire range, with a gently rising slope from blue to near-infrared, negligible curvature, no red-edge, and no absorption features",
+      "Extremely dark signature (2–3% reflectance) monotonically increasing to near 5% at 860 nm; the visible-band slope is shallow but persistent; spectral curvature is slightly convex; red-edge is absent; the continuum is featureless",
+      "Reflectance remains under 5% from 430 to 860 nm, exhibiting a weak positive slope and subtle concave curvature in the visible region; no red-edge transition occurs, and no sharp absorption bands are present",
+      "A uniformly low reflectance (<3%) with a very gradual, nearly linear increase toward longer wavelengths; spectral curvature is minimal; red-edge behavior is completely lacking; the spectrum shows no discernible absorption or transition features",
+      "Reflectance levels are consistently below 4% with a slight upward tilt from blue to NIR; the curve displays mild convex bending at longer wavelengths; there is no red-edge signature, and the entire interval is devoid of any absorption features"
+    ]
+  },
+  "8": {
+    "class_name": "Self-Blocking Bricks",
+    "descriptions": [
+      "A flat, moderately high reflectance (~0.65) across the entire 430–860 nm range with no perceptible slope, curvature, or absorption features, and no red-edge transition",
+      "A gradually increasing reflectance from ~0.3 at 430 nm to ~0.5 at 700 nm, then a slight decrease to ~0.45 at 860 nm, giving a positive visible-band slope with a gentle convex curvature and a subtle red-edge peak near 710 nm",
+      "Low overall reflectance (~0.15) with a pronounced negative slope in the visible (blue higher than red), a concave curvature dipping near 550 nm, and a shallow but broad absorption centered at 670 nm, followed by a weak upward inflection after 750 nm mimicking a red-edge",
+      "Medium reflectance (~0.45) with a sharp absorption trough at 550 nm (depth ~0.15), creating a double-peaked shape in the visible; the overall visible slope is slightly positive, with a strong sigmoidal red-edge jump from 680 to 750 nm (reflectance increasing from 0.35 to 0.60), and a slight downward curvature in the NIR",
+      "Very low reflectance (<0.10) from 430 to 600 nm, then a steep linear rise from 600 to 720 nm (reflectance reaching ~0.70), followed by a plateau near 0.75 from 720 to 860 nm; the visible slope is strongly positive, the curvature is minimal, and the red-edge transition is exceptionally abrupt with no absorption features in the range"
+    ]
+  },
+  "9": {
+    "class_name": "Shadows",
+    "descriptions": [
+      "Very low overall reflectance with a slightly positive slope from blue to red, no spectral curvature, no red-edge inflection, and no detectable absorption features",
+      "Moderate overall reflectance but with a pronounced negative visible-band slope due to enhanced blue skylight, slight concave curvature across the visible, and a muted red-edge shoulder with reduced amplitude",
+      "Extremely low reflectance that is nearly flat across the entire 430–860 nm range, showing no discernible slope, curvature, red-edge behavior, or any absorption features",
+      "Low reflectance with a shallow positive slope from 430 to 700 nm, a weak convex curvature in the green–red region, a suppressed but still present red-edge transition near 720 nm, and a minor chlorophyll absorption trough near 670 nm",
+      "Moderate to low reflectance with a marked blue–green increase causing a steep negative slope from 430 to 550 nm, a strong concave curvature through the visible, a red-edge that is both shifted to shorter wavelengths and reduced in slope, and a subtle water absorption feature near 820 nm"
+    ]
+  }
+}

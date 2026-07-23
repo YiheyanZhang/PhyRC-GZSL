@@ -1,0 +1,11 @@
+{
+  "1": {"brightness": 0.50, "visible_slope": 0.48, "green_peak": 0.78, "red_absorption": 0.82, "red_edge": 0.84, "nir_level": 0.80, "smoothness": 0.38, "variability": 0.68},
+  "2": {"brightness": 0.56, "visible_slope": 0.50, "green_peak": 0.72, "red_absorption": 0.76, "red_edge": 0.78, "nir_level": 0.76, "smoothness": 0.42, "variability": 0.62},
+  "3": {"brightness": 0.52, "visible_slope": 0.46, "green_peak": 0.76, "red_absorption": 0.80, "red_edge": 0.82, "nir_level": 0.78, "smoothness": 0.40, "variability": 0.64},
+  "4": {"brightness": 0.48, "visible_slope": 0.44, "green_peak": 0.84, "red_absorption": 0.86, "red_edge": 0.88, "nir_level": 0.84, "smoothness": 0.34, "variability": 0.66},
+  "5": {"brightness": 0.46, "visible_slope": 0.42, "green_peak": 0.82, "red_absorption": 0.86, "red_edge": 0.88, "nir_level": 0.86, "smoothness": 0.32, "variability": 0.70},
+  "6": {"brightness": 0.44, "visible_slope": 0.38, "green_peak": 0.86, "red_absorption": 0.90, "red_edge": 0.92, "nir_level": 0.84, "smoothness": 0.30, "variability": 0.72},
+  "7": {"brightness": 0.08, "visible_slope": 0.12, "green_peak": 0.06, "red_absorption": 0.06, "red_edge": 0.02, "nir_level": 0.02, "smoothness": 0.92, "variability": 0.10},
+  "8": {"brightness": 0.48, "visible_slope": 0.62, "green_peak": 0.18, "red_absorption": 0.14, "red_edge": 0.10, "nir_level": 0.38, "smoothness": 0.62, "variability": 0.58},
+  "9": {"brightness": 0.45, "visible_slope": 0.40, "green_peak": 0.80, "red_absorption": 0.84, "red_edge": 0.86, "nir_level": 0.82, "smoothness": 0.30, "variability": 0.82}
+}

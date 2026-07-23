@@ -1,0 +1,592 @@
+{
+  "protocol": {
+    "status": "descriptive post-hoc uncertainty analysis; not a preregistered confirmatory test",
+    "pairing": "seed and held-out class",
+    "bootstrap": "resample seeds, then held-out classes within each sampled seed",
+    "resamples": 20000,
+    "rng_seed": 2027,
+    "baseline_rule": "strongest displayed controlled baseline by aggregate mean H"
+  },
+  "datasets": {
+    "paviau": {
+      "display_name": "PaviaU",
+      "baseline": "CADA-VAE",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "paired_units": 45,
+      "mean_h_difference": 6.16117069280545,
+      "h_difference_ci95": [
+        -3.8545714291498077,
+        16.52363262748946
+      ],
+      "phyrc_win_rate": 0.6222222222222222,
+      "tie_rate": 0.0,
+      "hardest_three": [
+        {
+          "class_id": 2,
+          "class_name": "Meadows",
+          "mean_unseen_aa": 24.925733283285968,
+          "std_unseen_aa": 0.7099835580922362,
+          "min_unseen_aa": 23.652742774411497,
+          "max_unseen_aa": 25.668936672207625
+        },
+        {
+          "class_id": 6,
+          "class_name": "Bare Soil",
+          "mean_unseen_aa": 25.73871545038775,
+          "std_unseen_aa": 7.618165195060535,
+          "min_unseen_aa": 12.666534102207198,
+          "max_unseen_aa": 35.255517995625375
+        },
+        {
+          "class_id": 8,
+          "class_name": "Self-Blocking Bricks",
+          "mean_unseen_aa": 30.42911461162412,
+          "std_unseen_aa": 7.106291803923762,
+          "min_unseen_aa": 23.519826181423138,
+          "max_unseen_aa": 41.93373166757197
+        }
+      ],
+      "per_class": [
+        {
+          "class_id": 1,
+          "class_name": "Asphalt",
+          "mean_unseen_aa": 81.33916453023679,
+          "std_unseen_aa": 6.979098327483371,
+          "min_unseen_aa": 72.01025486351983,
+          "max_unseen_aa": 91.05715578344142
+        },
+        {
+          "class_id": 2,
+          "class_name": "Meadows",
+          "mean_unseen_aa": 24.925733283285968,
+          "std_unseen_aa": 0.7099835580922362,
+          "min_unseen_aa": 23.652742774411497,
+          "max_unseen_aa": 25.668936672207625
+        },
+        {
+          "class_id": 3,
+          "class_name": "Gravel",
+          "mean_unseen_aa": 74.03525488327776,
+          "std_unseen_aa": 7.9214895762153255,
+          "min_unseen_aa": 60.409718913768465,
+          "max_unseen_aa": 85.04049547403525
+        },
+        {
+          "class_id": 4,
+          "class_name": "Trees",
+          "mean_unseen_aa": 51.873368146214105,
+          "std_unseen_aa": 16.40655895471234,
+          "min_unseen_aa": 27.806788511749346,
+          "max_unseen_aa": 75.45691906005221
+        },
+        {
+          "class_id": 5,
+          "class_name": "Painted Metal Sheets",
+          "mean_unseen_aa": 99.98513011152417,
+          "std_unseen_aa": 0.02973977695167491,
+          "min_unseen_aa": 99.92565055762081,
+          "max_unseen_aa": 100.0
+        },
+        {
+          "class_id": 6,
+          "class_name": "Bare Soil",
+          "mean_unseen_aa": 25.73871545038775,
+          "std_unseen_aa": 7.618165195060535,
+          "min_unseen_aa": 12.666534102207198,
+          "max_unseen_aa": 35.255517995625375
+        },
+        {
+          "class_id": 7,
+          "class_name": "Bitumen",
+          "mean_unseen_aa": 37.86466165413534,
+          "std_unseen_aa": 21.710588484108495,
+          "min_unseen_aa": 12.857142857142856,
+          "max_unseen_aa": 72.03007518796993
+        },
+        {
+          "class_id": 8,
+          "class_name": "Self-Blocking Bricks",
+          "mean_unseen_aa": 30.42911461162412,
+          "std_unseen_aa": 7.106291803923762,
+          "min_unseen_aa": 23.519826181423138,
+          "max_unseen_aa": 41.93373166757197
+        },
+        {
+          "class_id": 9,
+          "class_name": "Shadows",
+          "mean_unseen_aa": 100.0,
+          "std_unseen_aa": 0.0,
+          "min_unseen_aa": 100.0,
+          "max_unseen_aa": 100.0
+        }
+      ]
+    },
+    "houston": {
+      "display_name": "Houston",
+      "baseline": "CADA-VAE",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "paired_units": 75,
+      "mean_h_difference": 9.513156698438147,
+      "h_difference_ci95": [
+        2.7854768176099296,
+        16.76646130497922
+      ],
+      "phyrc_win_rate": 0.6533333333333333,
+      "tie_rate": 0.0,
+      "hardest_three": [
+        {
+          "class_id": 5,
+          "class_name": "Soil",
+          "mean_unseen_aa": 9.388083735909822,
+          "std_unseen_aa": 6.419367104045972,
+          "min_unseen_aa": 3.542673107890499,
+          "max_unseen_aa": 20.611916264090176
+        },
+        {
+          "class_id": 13,
+          "class_name": "Parking Lot 2",
+          "mean_unseen_aa": 24.861407249466954,
+          "std_unseen_aa": 17.91988785639254,
+          "min_unseen_aa": 8.315565031982942,
+          "max_unseen_aa": 47.97441364605544
+        },
+        {
+          "class_id": 8,
+          "class_name": "Commercial",
+          "mean_unseen_aa": 33.93890675241157,
+          "std_unseen_aa": 18.470310954662445,
+          "min_unseen_aa": 9.967845659163988,
+          "max_unseen_aa": 65.11254019292605
+        }
+      ],
+      "per_class": [
+        {
+          "class_id": 1,
+          "class_name": "Healthy Grass",
+          "mean_unseen_aa": 99.8721023181455,
+          "std_unseen_aa": 0.13937326757923804,
+          "min_unseen_aa": 99.60031974420464,
+          "max_unseen_aa": 100.0
+        },
+        {
+          "class_id": 2,
+          "class_name": "Stressed Grass",
+          "mean_unseen_aa": 97.09728867623605,
+          "std_unseen_aa": 3.1223329112452953,
+          "min_unseen_aa": 91.30781499202551,
+          "max_unseen_aa": 99.84051036682615
+        },
+        {
+          "class_id": 3,
+          "class_name": "Synthetic Grass",
+          "mean_unseen_aa": 86.74318507890962,
+          "std_unseen_aa": 20.679211509673163,
+          "min_unseen_aa": 45.48063127690101,
+          "max_unseen_aa": 98.70875179340028
+        },
+        {
+          "class_id": 4,
+          "class_name": "Trees",
+          "mean_unseen_aa": 95.12861736334405,
+          "std_unseen_aa": 5.722795219851825,
+          "min_unseen_aa": 84.32475884244373,
+          "max_unseen_aa": 99.43729903536978
+        },
+        {
+          "class_id": 5,
+          "class_name": "Soil",
+          "mean_unseen_aa": 9.388083735909822,
+          "std_unseen_aa": 6.419367104045972,
+          "min_unseen_aa": 3.542673107890499,
+          "max_unseen_aa": 20.611916264090176
+        },
+        {
+          "class_id": 6,
+          "class_name": "Water",
+          "mean_unseen_aa": 91.26153846153846,
+          "std_unseen_aa": 3.726000123869685,
+          "min_unseen_aa": 85.84615384615385,
+          "max_unseen_aa": 94.76923076923077
+        },
+        {
+          "class_id": 7,
+          "class_name": "Residential",
+          "mean_unseen_aa": 68.01261829652996,
+          "std_unseen_aa": 18.054294987480116,
+          "min_unseen_aa": 41.08832807570978,
+          "max_unseen_aa": 87.69716088328076
+        },
+        {
+          "class_id": 8,
+          "class_name": "Commercial",
+          "mean_unseen_aa": 33.93890675241157,
+          "std_unseen_aa": 18.470310954662445,
+          "min_unseen_aa": 9.967845659163988,
+          "max_unseen_aa": 65.11254019292605
+        },
+        {
+          "class_id": 9,
+          "class_name": "Road",
+          "mean_unseen_aa": 38.29073482428115,
+          "std_unseen_aa": 4.411260215742673,
+          "min_unseen_aa": 32.18849840255591,
+          "max_unseen_aa": 43.05111821086262
+        },
+        {
+          "class_id": 10,
+          "class_name": "Highway",
+          "mean_unseen_aa": 83.71638141809291,
+          "std_unseen_aa": 4.659154288309249,
+          "min_unseen_aa": 77.91361043194784,
+          "max_unseen_aa": 91.27954360228199
+        },
+        {
+          "class_id": 11,
+          "class_name": "Railway",
+          "mean_unseen_aa": 81.00404858299595,
+          "std_unseen_aa": 4.611149417017103,
+          "min_unseen_aa": 75.54655870445343,
+          "max_unseen_aa": 88.17813765182187
+        },
+        {
+          "class_id": 12,
+          "class_name": "Parking Lot 1",
+          "mean_unseen_aa": 63.68207623682076,
+          "std_unseen_aa": 5.217489110921738,
+          "min_unseen_aa": 56.285482562854824,
+          "max_unseen_aa": 70.72181670721817
+        },
+        {
+          "class_id": 13,
+          "class_name": "Parking Lot 2",
+          "mean_unseen_aa": 24.861407249466954,
+          "std_unseen_aa": 17.91988785639254,
+          "min_unseen_aa": 8.315565031982942,
+          "max_unseen_aa": 47.97441364605544
+        },
+        {
+          "class_id": 14,
+          "class_name": "Tennis Court",
+          "mean_unseen_aa": 34.1588785046729,
+          "std_unseen_aa": 23.212778503639477,
+          "min_unseen_aa": 9.813084112149532,
+          "max_unseen_aa": 61.44859813084113
+        },
+        {
+          "class_id": 15,
+          "class_name": "Running Track",
+          "mean_unseen_aa": 99.6969696969697,
+          "std_unseen_aa": 0.39510317607288925,
+          "min_unseen_aa": 98.93939393939394,
+          "max_unseen_aa": 100.0
+        }
+      ]
+    },
+    "longkou": {
+      "display_name": "LongKou",
+      "baseline": "ESZSL",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "paired_units": 45,
+      "mean_h_difference": 10.630155018225556,
+      "h_difference_ci95": [
+        -1.1864273642242813,
+        23.08117208722307
+      ],
+      "phyrc_win_rate": 0.5777777777777777,
+      "tie_rate": 0.0,
+      "hardest_three": [
+        {
+          "class_id": 5,
+          "class_name": "Narrow-leaf soybean",
+          "mean_unseen_aa": 2.4235124066490004,
+          "std_unseen_aa": 2.4337257902826206,
+          "min_unseen_aa": 0.1927246446639364,
+          "max_unseen_aa": 7.082630691399664
+        },
+        {
+          "class_id": 6,
+          "class_name": "Rice",
+          "mean_unseen_aa": 18.164332714695462,
+          "std_unseen_aa": 5.678142715222429,
+          "min_unseen_aa": 10.156909060232833,
+          "max_unseen_aa": 27.788088408975874
+        },
+        {
+          "class_id": 2,
+          "class_name": "Cotton",
+          "mean_unseen_aa": 22.51253881060425,
+          "std_unseen_aa": 12.493562859698576,
+          "min_unseen_aa": 6.59183186052066,
+          "max_unseen_aa": 37.38953904943874
+        }
+      ],
+      "per_class": [
+        {
+          "class_id": 1,
+          "class_name": "Corn",
+          "mean_unseen_aa": 94.63185650951871,
+          "std_unseen_aa": 2.0160858834566397,
+          "min_unseen_aa": 91.83448755469271,
+          "max_unseen_aa": 98.03540900002898
+        },
+        {
+          "class_id": 2,
+          "class_name": "Cotton",
+          "mean_unseen_aa": 22.51253881060425,
+          "std_unseen_aa": 12.493562859698576,
+          "min_unseen_aa": 6.59183186052066,
+          "max_unseen_aa": 37.38953904943874
+        },
+        {
+          "class_id": 3,
+          "class_name": "Sesame",
+          "mean_unseen_aa": 33.58627515671395,
+          "std_unseen_aa": 29.213747589973245,
+          "min_unseen_aa": 3.695150115473441,
+          "max_unseen_aa": 80.30353018805675
+        },
+        {
+          "class_id": 4,
+          "class_name": "Broad-leaf soybean",
+          "mean_unseen_aa": 58.03201923685376,
+          "std_unseen_aa": 9.793659601708896,
+          "min_unseen_aa": 44.524773777130925,
+          "max_unseen_aa": 71.06403847370753
+        },
+        {
+          "class_id": 5,
+          "class_name": "Narrow-leaf soybean",
+          "mean_unseen_aa": 2.4235124066490004,
+          "std_unseen_aa": 2.4337257902826206,
+          "min_unseen_aa": 0.1927246446639364,
+          "max_unseen_aa": 7.082630691399664
+        },
+        {
+          "class_id": 6,
+          "class_name": "Rice",
+          "mean_unseen_aa": 18.164332714695462,
+          "std_unseen_aa": 5.678142715222429,
+          "min_unseen_aa": 10.156909060232833,
+          "max_unseen_aa": 27.788088408975874
+        },
+        {
+          "class_id": 7,
+          "class_name": "Water",
+          "mean_unseen_aa": 99.99552612741589,
+          "std_unseen_aa": 0.0038888107881157124,
+          "min_unseen_aa": 99.98806967310905,
+          "max_unseen_aa": 99.99850870913863
+        },
+        {
+          "class_id": 8,
+          "class_name": "Roads and houses",
+          "mean_unseen_aa": 42.96743402582818,
+          "std_unseen_aa": 11.53329638446151,
+          "min_unseen_aa": 31.513194834362718,
+          "max_unseen_aa": 60.41549691184728
+        },
+        {
+          "class_id": 9,
+          "class_name": "Mixed weed",
+          "mean_unseen_aa": 69.29814496079557,
+          "std_unseen_aa": 5.5507078966079195,
+          "min_unseen_aa": 61.7708930961943,
+          "max_unseen_aa": 78.42799770510614
+        }
+      ]
+    },
+    "indian_pines": {
+      "display_name": "Indian Pines",
+      "baseline": "ESZSL",
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "paired_units": 80,
+      "mean_h_difference": 18.116825249543066,
+      "h_difference_ci95": [
+        12.756142192623027,
+        23.541630815981463
+      ],
+      "phyrc_win_rate": 0.7375,
+      "tie_rate": 0.0,
+      "hardest_three": [
+        {
+          "class_id": 8,
+          "class_name": "Hay-windrowed",
+          "mean_unseen_aa": 0.0,
+          "std_unseen_aa": 0.0,
+          "min_unseen_aa": 0.0,
+          "max_unseen_aa": 0.0
+        },
+        {
+          "class_id": 9,
+          "class_name": "Oats",
+          "mean_unseen_aa": 0.0,
+          "std_unseen_aa": 0.0,
+          "min_unseen_aa": 0.0,
+          "max_unseen_aa": 0.0
+        },
+        {
+          "class_id": 13,
+          "class_name": "Wheat",
+          "mean_unseen_aa": 8.292682926829269,
+          "std_unseen_aa": 16.09903910434669,
+          "min_unseen_aa": 0.0,
+          "max_unseen_aa": 40.487804878048784
+        }
+      ],
+      "per_class": [
+        {
+          "class_id": 1,
+          "class_name": "Alfalfa",
+          "mean_unseen_aa": 30.43478260869565,
+          "std_unseen_aa": 34.40007033887388,
+          "min_unseen_aa": 2.1739130434782608,
+          "max_unseen_aa": 97.82608695652173
+        },
+        {
+          "class_id": 2,
+          "class_name": "Corn-notill",
+          "mean_unseen_aa": 66.62464985994397,
+          "std_unseen_aa": 13.174694162727825,
+          "min_unseen_aa": 45.44817927170868,
+          "max_unseen_aa": 85.57422969187675
+        },
+        {
+          "class_id": 3,
+          "class_name": "Corn-mintill",
+          "mean_unseen_aa": 86.3132530120482,
+          "std_unseen_aa": 6.304141313968823,
+          "min_unseen_aa": 73.855421686747,
+          "max_unseen_aa": 91.20481927710843
+        },
+        {
+          "class_id": 4,
+          "class_name": "Corn",
+          "mean_unseen_aa": 61.94092827004219,
+          "std_unseen_aa": 21.245720858789245,
+          "min_unseen_aa": 32.48945147679325,
+          "max_unseen_aa": 86.49789029535864
+        },
+        {
+          "class_id": 5,
+          "class_name": "Grass-pasture",
+          "mean_unseen_aa": 26.832298136645967,
+          "std_unseen_aa": 6.499320632127016,
+          "min_unseen_aa": 14.078674948240167,
+          "max_unseen_aa": 32.091097308488614
+        },
+        {
+          "class_id": 6,
+          "class_name": "Grass-trees",
+          "mean_unseen_aa": 35.945205479452056,
+          "std_unseen_aa": 15.772257950217185,
+          "min_unseen_aa": 19.589041095890412,
+          "max_unseen_aa": 61.50684931506849
+        },
+        {
+          "class_id": 7,
+          "class_name": "Grass-pasture-mowed",
+          "mean_unseen_aa": 98.57142857142858,
+          "std_unseen_aa": 1.749635530559412,
+          "min_unseen_aa": 96.42857142857143,
+          "max_unseen_aa": 100.0
+        },
+        {
+          "class_id": 8,
+          "class_name": "Hay-windrowed",
+          "mean_unseen_aa": 0.0,
+          "std_unseen_aa": 0.0,
+          "min_unseen_aa": 0.0,
+          "max_unseen_aa": 0.0
+        },
+        {
+          "class_id": 9,
+          "class_name": "Oats",
+          "mean_unseen_aa": 0.0,
+          "std_unseen_aa": 0.0,
+          "min_unseen_aa": 0.0,
+          "max_unseen_aa": 0.0
+        },
+        {
+          "class_id": 10,
+          "class_name": "Soybean-notill",
+          "mean_unseen_aa": 68.45679012345678,
+          "std_unseen_aa": 7.14397839959472,
+          "min_unseen_aa": 57.407407407407405,
+          "max_unseen_aa": 78.18930041152264
+        },
+        {
+          "class_id": 11,
+          "class_name": "Soybean-mintill",
+          "mean_unseen_aa": 57.35234215885947,
+          "std_unseen_aa": 18.944484261462126,
+          "min_unseen_aa": 22.403258655804482,
+          "max_unseen_aa": 74.41955193482688
+        },
+        {
+          "class_id": 12,
+          "class_name": "Soybean-clean",
+          "mean_unseen_aa": 63.57504215851602,
+          "std_unseen_aa": 17.95552924792527,
+          "min_unseen_aa": 34.56998313659359,
+          "max_unseen_aa": 82.46205733558179
+        },
+        {
+          "class_id": 13,
+          "class_name": "Wheat",
+          "mean_unseen_aa": 8.292682926829269,
+          "std_unseen_aa": 16.09903910434669,
+          "min_unseen_aa": 0.0,
+          "max_unseen_aa": 40.487804878048784
+        },
+        {
+          "class_id": 14,
+          "class_name": "Woods",
+          "mean_unseen_aa": 9.628458498023717,
+          "std_unseen_aa": 4.801849383607442,
+          "min_unseen_aa": 1.8972332015810278,
+          "max_unseen_aa": 15.65217391304348
+        },
+        {
+          "class_id": 15,
+          "class_name": "Buildings-Grass-Trees-Drives",
+          "mean_unseen_aa": 10.518134715025907,
+          "std_unseen_aa": 6.487245274980119,
+          "min_unseen_aa": 2.849740932642487,
+          "max_unseen_aa": 19.689119170984455
+        },
+        {
+          "class_id": 16,
+          "class_name": "Stone-Steel-Towers",
+          "mean_unseen_aa": 33.33333333333333,
+          "std_unseen_aa": 29.1950830306154,
+          "min_unseen_aa": 1.0752688172043012,
+          "max_unseen_aa": 79.56989247311827
+        }
+      ]
+    }
+  }
+}

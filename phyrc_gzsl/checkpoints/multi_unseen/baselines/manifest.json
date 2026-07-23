@@ -1,0 +1,1005 @@
+{
+  "source_manifest": "phyrc_gzsl/checkpoints/multi_unseen/manifest.json",
+  "jobs": [
+    {
+      "dataset": "paviau",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/paviau/seed42.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/paviau/seed43.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/paviau/seed44.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/paviau/seed45.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/paviau/seed46.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "houston",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/houston/seed42.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "houston",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/houston/seed43.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "houston",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/houston/seed44.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "houston",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/houston/seed45.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "houston",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/houston/seed46.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/longkou/seed42.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/longkou/seed43.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/longkou/seed44.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/longkou/seed45.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/eszsl/longkou/seed46.json",
+      "method": "eszsl"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/paviau/seed42.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/paviau/seed43.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/paviau/seed44.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/paviau/seed45.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/paviau/seed46.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "houston",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/houston/seed42.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "houston",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/houston/seed43.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "houston",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/houston/seed44.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "houston",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/houston/seed45.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "houston",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/houston/seed46.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/longkou/seed42.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/longkou/seed43.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/longkou/seed44.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/longkou/seed45.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/sae/longkou/seed46.json",
+      "method": "sae"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/paviau/seed42.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/paviau/seed43.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/paviau/seed44.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/paviau/seed45.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/paviau/seed46.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "houston",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/houston/seed42.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "houston",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/houston/seed43.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "houston",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/houston/seed44.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "houston",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/houston/seed45.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "houston",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/houston/seed46.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/longkou/seed42.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/longkou/seed43.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/longkou/seed44.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/longkou/seed45.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/f_clswgan/longkou/seed46.json",
+      "method": "f_clswgan"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/paviau/seed42.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/paviau/seed43.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/paviau/seed44.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/paviau/seed45.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/paviau/seed46.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "houston",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/houston/seed42.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "houston",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/houston/seed43.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "houston",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/houston/seed44.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "houston",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/houston/seed45.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "houston",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/houston/seed46.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/longkou/seed42.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/longkou/seed43.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/longkou/seed44.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/longkou/seed45.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/cada_vae/longkou/seed46.json",
+      "method": "cada_vae"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/paviau/seed42.json",
+      "method": "free"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/paviau/seed43.json",
+      "method": "free"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/paviau/seed44.json",
+      "method": "free"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/paviau/seed45.json",
+      "method": "free"
+    },
+    {
+      "dataset": "paviau",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/paviau_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/PaviaU_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/paviau/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/paviau/seed46.json",
+      "method": "free"
+    },
+    {
+      "dataset": "houston",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/houston/seed42.json",
+      "method": "free"
+    },
+    {
+      "dataset": "houston",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/houston/seed43.json",
+      "method": "free"
+    },
+    {
+      "dataset": "houston",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/houston/seed44.json",
+      "method": "free"
+    },
+    {
+      "dataset": "houston",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/houston/seed45.json",
+      "method": "free"
+    },
+    {
+      "dataset": "houston",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        7,
+        11
+      ],
+      "config": "phyrc_gzsl/configs/houston_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/Houston_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/houston/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/houston/seed46.json",
+      "method": "free"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 42,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed42/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/longkou/seed42.json",
+      "method": "free"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 43,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed43/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/longkou/seed43.json",
+      "method": "free"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 44,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed44/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/longkou/seed44.json",
+      "method": "free"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 45,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed45/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/longkou/seed45.json",
+      "method": "free"
+    },
+    {
+      "dataset": "longkou",
+      "seed": 46,
+      "unseen_classes": [
+        3,
+        6
+      ],
+      "config": "phyrc_gzsl/configs/longkou_p1.yaml",
+      "attributes": "phyrc_gzsl/data/processed/LongKou_structured_attributes.json",
+      "backbone": "phyrc_gzsl/checkpoints/multi_unseen/longkou/seed46/backbone.pt",
+      "result": "phyrc_gzsl/checkpoints/multi_unseen/baselines/free/longkou/seed46.json",
+      "method": "free"
+    }
+  ]
+}

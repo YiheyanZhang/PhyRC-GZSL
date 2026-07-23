@@ -1,0 +1,50 @@
+dataset:
+  name: Houston
+  raw_dir: data/raw
+  processed_dir: data/processed
+  data_file: Houston/Houston.mat
+  gt_file: Houston/Houston_gt.mat
+  data_key: Houstondata
+  gt_key: Houstonlabel
+classes:
+  names:
+    1: Healthy Grass
+    2: Stressed Grass
+    3: Synthetic Grass
+    4: Trees
+    5: Soil
+    6: Water
+    7: Residential
+    8: Commercial
+    9: Road
+    10: Highway
+    11: Railway
+    12: Parking Lot 1
+    13: Parking Lot 2
+    14: Tennis Court
+    15: Running Track
+  seen_classes: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+  unseen_classes: [1]
+model:
+  backbone: spectral_morphology
+  feature_dim: 64
+  freeze_backbone: true
+spectral_mae:
+  feature_dim: 64
+  hidden_dim: 256
+  mask_ratio: 0.3
+  mae_weight: 1.0
+  supcon_weight: 0.1
+  temperature: 0.2
+  epochs: 100
+  batch_size: 512
+  lr: 0.001
+  weight_decay: 0.0001
+runtime:
+  device: auto
+  num_workers: 0
+  seed: 42
+data_split:
+  normalization: seen_train
+  train_ratio: 0.2
+  seed: 42

@@ -1,0 +1,101 @@
+{
+  "1": {
+    "class_name": "Asphalt",
+    "descriptions": [
+      "A single hyperspectral pixel of the Asphalt class.",
+      "Reflectance is low to moderate across the 430-860 nm range.",
+      "Reflectance increases gradually from visible wavelengths toward 860 nm.",
+      "The spectrum is broadly flat with a slight convex curvature in the NIR.",
+      "No red-edge transition is present; the spectrum lacks vegetation features.",
+      "Variability arises from differences in age, moisture, and composition."
+    ]
+  },
+  "2": {
+    "class_name": "Meadows",
+    "descriptions": [
+      "This pixel belongs to the Meadows class.",
+      "Reflectance is low in visible bands and high in near-infrared, giving a moderate overall level.",
+      "The spectral slope from visible to 860 nm is strongly positive.",
+      "A broad concave shape in visible bands transitions to convex curvature in the near-infrared.",
+      "Red-edge is present as a steep reflectance increase from red to near-infrared wavelengths.",
+      "Intra-class variation arises from moisture, chlorophyll content, and leaf senescence."
+    ]
+  },
+  "3": {
+    "class_name": "Gravel",
+    "descriptions": [
+      "This is a single hyperspectral pixel of gravel.",
+      "Reflectance is generally moderate across the 430-860 nm range with variability.",
+      "Reflectance increases slightly from visible wavelengths toward 860 nm.",
+      "The spectral curve is broadly linear without pronounced curvature.",
+      "No red edge is present as gravel is non-vegetation.",
+      "Variation arises from mineral composition, moisture, and grain size."
+    ]
+  },
+  "4": {
+    "class_name": "Trees",
+    "descriptions": [
+      "This is a single hyperspectral pixel belonging to the Trees class.",
+      "Reflectance is generally low in visible bands and high in NIR, so overall medium to high.",
+      "Reflectance increases sharply from visible wavelengths toward 860 nm, producing a strong positive slope.",
+      "The broad curve is concave in visible bands and convex approaching 860 nm, with a smooth transition.",
+      "A distinct red-edge transition occurs, with a steep reflectance increase from red to near-infrared wavelengths.",
+      "Intra-class variation results from differences in canopy shadow, leaf moisture, and sub-pixel mixing."
+    ]
+  },
+  "5": {
+    "class_name": "Painted Metal Sheets",
+    "descriptions": [
+      "A single pixel belongs to the Painted Metal Sheets class.",
+      "Reflectance is moderate to high across the 430-860 nm range, variable with paint color.",
+      "The spectrum is broadly flat or slightly increasing from visible to 860 nm.",
+      "The spectral curve is generally linear with possible minor convex or concave curvature.",
+      "No red-edge feature is present as this is a non-vegetation class.",
+      "Variation arises from paint color, aging, moisture, and sub-pixel mixing."
+    ]
+  },
+  "6": {
+    "class_name": "Bare Soil",
+    "descriptions": [
+      "This pixel is classified as bare soil from its hyperspectral signature.",
+      "Reflectance is moderate across the 430-860 nm range, varying with soil composition.",
+      "A gradual positive slope from visible wavelengths to 860 nm is typical.",
+      "The spectrum shows a broad convex shape or monotonic increase without sharp transitions.",
+      "No red-edge is present; the spectrum lacks the sharp vegetation reflectance increase.",
+      "Variation arises from differences in moisture, organic matter, and mineral composition."
+    ]
+  },
+  "7": {
+    "class_name": "Bitumen",
+    "descriptions": [
+      "A single hyperspectral pixel of Bitumen.",
+      "Reflectance is low across the 430-860 nm range, typically under 10%.",
+      "Reflectance is nearly flat or very gradually increasing from visible to 860 nm.",
+      "No pronounced curvature; the spectrum is broadly linear or weakly concave upward.",
+      "Red edge is absent because Bitumen is not vegetation; no sharp transition around 700 nm.",
+      "Variation arises from surface aging, moisture content, and minor compositional differences."
+    ]
+  },
+  "8": {
+    "class_name": "Self-Blocking Bricks",
+    "descriptions": [
+      "This hyperspectral pixel belongs to the class Self-Blocking Bricks.",
+      "Reflectance is generally moderate, varying with brick color and surface condition.",
+      "Reflectance increases gradually from visible wavelengths toward 860 nm, with moderate slope.",
+      "The spectrum exhibits a broad convex shape, with gradual transitions and no sharp features.",
+      "No diagnostic red-edge is present; any inflection is weak and non-vegetation-like.",
+      "Spectral variation arises from differences in clay composition, firing, moisture, and surface aging."
+    ]
+  },
+  "9": {
+    "class_name": "Shadows",
+    "descriptions": [
+      "This is a single hyperspectral pixel belonging to the Shadows class.",
+      "Reflectance is typically low across the 430 to 860 nm range.",
+      "The spectrum shows a broadly flat or slightly positive slope from visible to near-infrared.",
+      "No pronounced curvature; the spectral shape remains generally linear.",
+      "No diagnostic red-edge feature is present as shadows lack vegetation spectral signatures.",
+      "Intra-class variation arises from differing illumination levels and sub-pixel material mixing."
+    ]
+  }
+}

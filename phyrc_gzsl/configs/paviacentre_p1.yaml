@@ -1,0 +1,45 @@
+dataset:
+  name: PaviaCentre
+  raw_dir: data/raw
+  processed_dir: data/processed
+  data_file: PaviaCentre/Pavia.mat
+  gt_file: PaviaCentre/Pavia_gt.mat
+  data_key: pavia
+  gt_key: pavia_gt
+classes:
+  names:
+    1: Water
+    2: Trees
+    3: Asphalt
+    4: Self-Blocking Bricks
+    5: Bitumen
+    6: Tiles
+    7: Shadows
+    8: Meadows
+    9: Bare Soil
+  seen_classes: [2, 3, 4, 5, 6, 7, 8, 9]
+  unseen_classes: [1]
+model:
+  backbone: spectral_morphology
+  feature_dim: 64
+  freeze_backbone: true
+spectral_mae:
+  feature_dim: 64
+  hidden_dim: 256
+  mask_ratio: 0.3
+  mae_weight: 1.0
+  supcon_weight: 0.1
+  temperature: 0.2
+  epochs: 100
+  batch_size: 512
+  lr: 0.001
+  weight_decay: 0.0001
+  checkpoint: checkpoints/paviacentre_p1_backbone.pt
+runtime:
+  device: auto
+  num_workers: 0
+  seed: 42
+data_split:
+  normalization: seen_train
+  train_ratio: 0.2
+  seed: 42

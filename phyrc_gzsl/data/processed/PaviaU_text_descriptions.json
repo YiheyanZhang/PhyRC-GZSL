@@ -1,0 +1,92 @@
+{
+  "1": {
+    "class_name": "Asphalt",
+    "descriptions": [
+      "Asphalt exhibits a generally low and flat spectral reflectance curve across visible to shortwave infrared, with subtle hydrocarbon absorption dips near 1.7 and 2.3 µm, while spatially forming continuous linear or polygonal networks with sharp edges and smooth textures, and physically representing a dark, impervious, man-made surface with high thermal inertia and low albedo",
+      "In the visible range, asphalt has a dark, featureless reflectance that gradually rises toward the SWIR, often showing a weak absorption feature around 2.3 µm due to bitumen content; spatially, it appears as broad, homogeneous road sections with distinct boundaries against vegetation or soil, and physically it is a dense, non-porous material that absorbs solar radiation and re-emits heat slowly",
+      "The spectral signature of asphalt is characterized by low reflectance across all hyperspectral bands (typically <0.15), with a slight increase in the NIR and a broad absorption near 1.7–1.8 µm from C-H bonds; spatially it forms elongated, interconnected corridors with little internal variation, and physically it is a highly compacted, hydrophobic surface with moderate to high heat capacity and low emissivity relative to natural surfaces",
+      "Asphalt has a nearly flat, dark spectral profile from 400 to 2500 nm, often with a small dip at 1.73 µm and 2.31 µm attributed to aliphatic hydrocarbons; spatially it appears as wide, uniform strips or large irregular patches with minimal spectral variance, and physically it is a solid, impervious layer that exhibits low surface roughness, high density, and significant thermal storage affecting diurnal temperature cycles",
+      "Hyperspectral imaging of asphalt reveals a continuously low reflectance with a subtle convex shape in the SWIR region and a narrow absorption feature at 2.3 µm from C-H stretch vibrations; spatially it is found in planned, anthropogenic patterns such as parking lots or road networks with clear geometric boundaries, and physically it is a dark, coarse aggregate-bound material with low permeability, high heat conductivity, and a characteristic tar-like odor when heated"
+    ]
+  },
+  "2": {
+    "class_name": "Meadows",
+    "descriptions": [
+      "Meadows in early growth stage exhibit a strong red-edge spectral feature (around 720 nm) due to rapid chlorophyll accumulation, with smooth spatial texture and elongated patches following field boundaries, while the physical structure is low-height (<30 cm), sparse canopy allowing visible soil background",
+      "Dense, mature meadows show high near-infrared reflectance (750–900 nm) from abundant leaf area index, a rough spatial texture caused by tussocks and lodged grass, physically characterized by >1 m height, high moisture content, and continuous canopy closure",
+      "A mown meadow displays depressed near-infrared and elevated shortwave infrared reflectance from exposed dry stubble, a spatially striped pattern from mechanical mowing lines, and a physical state of low standing biomass with senesced residue on the soil surface",
+      "Wet or flooded meadows exhibit distinctive water absorption dips near 970 nm and 1200 nm, a spatially homogeneous and slightly concave surface pattern due to standing water, and physically saturated soils with emergent hydrophytic grasses and sedges",
+      "Meadows interspersed with scrub encroachment show mixed spectral signatures with a lower normalized difference vegetation index (NDVI) than pure grassland, a fragmented spatial arrangement of irregular woody patches, and a physical transition from herbaceous to shrubby structure with increasing woody stem density"
+    ]
+  },
+  "3": {
+    "class_name": "Gravel",
+    "descriptions": [
+      "Gravel displays a moderately bright spectral signature with a flat continuum and subtle absorption features near 2.2 µm from quartz, a spatially heterogeneous texture of centimeter-scale clasts, and a physically loose, non-cohesive composition with high inter-particle porosity and rapid drainage",
+      "Hyperspectral pixels of gravel show low spectral variability with a gradual rise from visible to SWIR and minor hydroxyl or carbonate features, a spatial pattern of rough, blocky grains with sharp shadows, and physical properties of hard, angular rock fragments with low organic matter and moderate thermal inertia",
+      "Gravel spectra are characterized by an overall high albedo with weak iron oxide absorptions near 0.9 µm and a broad Si-O feature around 2.3 µm, spatially appearing as a clustered or dispersed grain arrangement with high surface roughness, and physically consisting of dry, well-sorted quartzite or limestone particles with low moisture retention",
+      "In hyperspectral imagery, gravel exhibits a relatively uniform reflectance across the VNIR region but with a slight convex shape and occasional mica absorption at 2.2 µm, a spatial texture of discrete, irregularly shaped bright and dark spots, and physical attributes of unconsolidated, weathered rock fragments with a granular fabric and high permeability",
+      "Gravel surfaces produce a spectrally mixed feature with variable brightness due to mineral diversity, a distinct 2.2 µm absorption dip from clay coatings, a spatial distribution of coarse, angular clasts creating fine-scale shadowing, and physical properties of low plasticity, high density, and a porous, free-draining substrate"
+    ]
+  },
+  "4": {
+    "class_name": "Trees",
+    "descriptions": [
+      "Trees exhibit high near-infrared (NIR) reflectance (0.75–1.0 µm) from chlorophyll and leaf structure, a red-edge shift near 0.72 µm indicating healthy foliage, and moderate water absorption at 1.4 and 1.9 µm, with a spatially heterogeneous canopy surface of irregular crown margins and heights ranging from 5 to 40 m, and a physical structure of woody trunks and branching networks",
+      "Deciduous trees show a strong seasonal spectral contrast: high NIR (0.8–1.1 µm) and low red (0.65 µm) reflectance in summer, followed by a yellow-red senescence peak (0.58–0.7 µm) in autumn, with a spatially diffuse, rounded crown shape and leaf area index (LAI) of 3–6, and physical properties including broad leaves and a shallow root system",
+      "Coniferous trees display a consistently high NIR reflectance (0.7–0.9 µm) with lower red absorption due to needle morphology, a subtle water absorption dip at 1.2 µm, and spatially fine-textured, conical or columnar crowns often forming dense stands, with physical properties such as thick bark, needle-like leaves, and heights up to 80 m",
+      "Stressed or diseased trees exhibit a decreased NIR reflectance (0.7–0.85 µm) and a flattening of the red-edge inflection point, often with a slight increase in visible red (0.65 µm) due to chlorophyll loss, spatially visible as patchy or thinning crown interiors, and physical signs of defoliation, branch dieback, or reduced tree vigor",
+      "Dense tree clusters (e.g., forest patches) show averaged spectral signatures with high NIR (0.8–1.0 µm) and low visible reflectance from multiple shadowed layers, a spatially homogeneous texture at coarse resolution but fine-scale gaps at high resolution, and physical properties like overlapping canopies, high biomass density, and vertical stratification from understory to emergent trees"
+    ]
+  },
+  "5": {
+    "class_name": "Painted Metal Sheets",
+    "descriptions": [
+      "Painted metal sheets exhibit strong absorption features near 0.5 µm and 1.5 µm from pigment and binder, smooth, angular roof-like geometries with sharp boundaries in imagery, and physically low thermal emissivity due to metallic substrate",
+      "The spectral signature of painted metal sheets includes a steep visible-NIR transition and high SWIR reflectance from the underlying metal, spatially they appear as large, contiguous rectangular patches with uniform texture, and physically they have a hard, non-porous surface prone to specular reflection",
+      "In hyperspectral data, painted metal sheets show diagnostic hydrocarbon absorption bands around 1.7 and 2.3 µm from the paint, spatially form isolated, man-made polygonal shapes with high contrast to surrounding vegetation, and physically exhibit high thermal conductivity and low solar absorptance when painted white",
+      "The class features a spectral profile with a broad absorption near 1.2 µm due to metal-oxide paint pigments, spatially displays repetitive, aligned rectilinear structures with consistent size, and physically possesses a smooth, glossy finish that causes directional reflectance variations at off-nadir viewing angles",
+      "Painted metal sheets display narrow spectral absorptions at 1.4 and 1.9 µm from the paint polymer binder, occur as small, clustered rectangular roofs with distinct line-edge boundaries in high-resolution imagery, and physically have low surface roughness and a thin paint layer that reveals metal reflectance in chipped areas"
+    ]
+  },
+  "6": {
+    "class_name": "Bare Soil",
+    "descriptions": [
+      "High reflectance across visible to shortwave infrared (0.4–2.5 µm) with a convex shape peaking near 1.6 µm and subtle water absorption dips at 1.4 and 1.9 µm, spatially uniform with minimal edge contrast, physically representing a dry, fine-textured silty loam with low organic matter content",
+      "Spectral curve shows increasing reflectance from visible to near-infrared (0.5–1.0 µm) then a gentle decline in SWIR, with narrow absorption features near 2.2 µm and 2.3 µm from clay minerals, spatially characterized by a smooth, homogeneous pattern with no vegetation patches, physically consisting of moderately moist, compacted clay-rich soil with surface crusting",
+      "A relatively flat spectral response across all bands but with a slight dip at 0.45 µm (blue) due to iron oxides, and a broad absorption around 2.2 µm from hydroxyl-bearing minerals, spatially exhibiting a mottled texture with small variations in brightness from microtopography, physically a coarse, sandy soil with low moisture content and visible quartz grains",
+      "Reflectance steadily rises from 0.4 µm to 1.0 µm, then remains high but uneven in SWIR with strong absorption at 1.9 µm from molecular water and a weaker feature at 2.2 µm, spatially forming irregular patches with gradual tonal changes along gentle slopes, physically a loamy sand with moderate moisture, sparse rock fragments, and some surface organic litter",
+      "Spectral signature marked by high albedo in all bands, with a distinct iron-oxide absorption near 0.9 µm and a carbonate-induced absorption at 2.35 µm, spatially appearing as a large, continuous, and largely isotropic unit with occasional linear erosion rills, physically a dry, calcium-rich, fine sandy loam with high reflectivity and minimal surface roughness"
+    ]
+  },
+  "7": {
+    "class_name": "Bitumen",
+    "descriptions": [
+      "Bitumen surfaces exhibit very low reflectance across the entire visible to shortwave infrared spectrum with a characteristic flat spectral profile and subtle absorption features near 1.7 and 2.3 μm due to hydrocarbon bonds, forming spatially contiguous dark patches on flat or gently sloped building rooftops, while physically they are viscous, water-repellent, and thermally emissive materials that can soften under high temperatures",
+      "The spectral signature of bitumen is dominated by a monotonically decreasing albedo from 0.4 to 2.5 μm with no distinct vegetation or mineral absorption bands, appearing in irregular polygonal shapes on aging asphalt parking lots, and physically it is a black, semi-solid mixture of hydrocarbons that becomes brittle at low temperatures and exhibits low thermal inertia",
+      "Freshly applied bitumen shows a deep, uniform absorption from 0.5 to 1.0 μm and a slight reflectance increase beyond 2.0 μm, forming linear to curvilinear features along roadways with narrow widths, while its physical state is a tacky, thixotropic fluid that cures into a hard, impermeable layer resistant to water infiltration",
+      "Bitumen’s hyperspectral reflectance is extremely low (typically <5%) with a weak inflection near 1.4 μm from organic C-H stretching, manifesting as irregular mottled zones on built-up roofing systems interspersed with gravel, and physically it is a ductile, thermoplastic material that emits longwave radiation efficiently and undergoes oxidative hardening over time",
+      "Weathered bitumen displays a slightly elevated reflectance in the visible region due to surface oxidation and dust accumulation, with residual hydrocarbon absorption around 2.3 μm, occupying spatially homogeneous patches on industrial flat roofs often with radial crack patterns, and physically it is a brittle, granular-layered solid that loses flexibility and becomes prone to fissuring under thermal cycling"
+    ]
+  },
+  "8": {
+    "class_name": "Self-Blocking Bricks",
+    "descriptions": [
+      "Spectral signature dominated by clay mineral absorption at 2.2 µm and 1.4 µm with moderate visible reflectance, spatial pattern of uniform rectangular blocks separated by narrow dark gaps, physical surface texture ranges from smooth to fine-grained with high density and low porosity",
+      "Strong near-infrared reflectance and flat visible spectrum with minor iron oxide dips, spatially arranged in staggered rows with sharp shadowed edges at interlocking joints, physically rigid with hollow cores and high compressive strength",
+      "Distinct carbonate absorption at 2.35 µm and silica feature at 2.2 µm with bright visible albedo, spatial geometry of regular rectangular units (approx. 0.3 × 0.6 m at 1 m GSD) forming a tessellated grid, physical properties include low water absorption and smooth, wear-resistant surface",
+      "Moderate overall reflectance with a slight increase in SWIR from iron impurities and a water absorption feature at 1.9 µm, spatial characteristic of tightly packed repeating blocks with chamfered edges and fine linear boundaries, physically dense, brittle, and manufactured with precise dimensional tolerances",
+      "High reflectance in VNIR peaking at 0.9 µm and distinct hydroxyl absorption at 2.2 µm, spatial layout of interlocked bricks in offset rows with consistent size and narrow gaps, physical surface often textured or dimpled for interlocking, with high thermal inertia and mechanical stability"
+    ]
+  },
+  "9": {
+    "class_name": "Shadows",
+    "descriptions": [
+      "Areas exhibit very low reflectance across all VNIR-SWIR bands, with a slight relative increase in the 400–500 nm blue region from diffuse skylight; spatially, they form sharp, geometrically consistent patches aligned with the sun’s azimuth, typically adjacent to building or tree edges; physically, they represent regions deprived of direct solar irradiance, resulting in cooler surface temperatures and reduced evapotranspiration",
+      "Spectral response is uniformly depressed below 0.1 reflectance, yet a subtle blue-green enhancement arises from Rayleigh-scattered sky illumination; spatially, boundaries are well-defined and often elongated, with a soft edge where cast by vegetation; physically, these areas lack direct beam radiation, lowering thermal emissivity and promoting localized moisture retention",
+      "Hyperspectral signatures show minimal spectral contrast across all wavelengths but a characteristic ‘sky glow’ in the visible blue, while the shortwave infrared remains extremely dark; spatially, patches are contiguous and follow the occluding object’s shape, shifting in length with solar hour; physically, the absence of direct sunlight reduces ground heat flux, creating cooler microclimates that can affect soil surface chemistry",
+      "Pixels classified as shadows have near-zero radiance in the SWIR, with a small peak around 450 nm from atmospheric scattering; spatially, they appear as irregularly shaped clusters hugging tall features, with boundaries that soften under diffuse light; physically, these zones experience attenuated total solar flux, leading to lower kinetic temperatures and potential condensation or fog accumulation",
+      "The spectral curve is flat and low (albedo <0.05) except for a weak hump in the blue-green due to skylight; spatially, the shadow class is characterized by sharp edges cast by structures or terrain, with coverage that varies strongly with sun angle; physically, these are surfaces shielded from direct solar heating, so they remain cooler and often exhibit higher relative humidity near the surface"
+    ]
+  }
+}

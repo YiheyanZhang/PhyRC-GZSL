@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+phyrc_gzsl/data/raw/
+*.mat
+*.pt
+*.pth
+*.log
+tmp/
+outputs/
+

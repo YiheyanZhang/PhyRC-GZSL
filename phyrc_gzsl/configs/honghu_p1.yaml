@@ -1,0 +1,58 @@
+dataset:
+  name: WHU-Hi-HongHu
+  raw_dir: data/raw
+  processed_dir: data/processed
+  data_file: WHU-Hi-HongHu/WHU_Hi_HongHu.mat
+  gt_file: WHU-Hi-HongHu/WHU_Hi_HongHu_gt.mat
+  data_key: WHU_Hi_HongHu
+  gt_key: WHU_Hi_HongHu_gt
+classes:
+  names:
+    1: Red roof
+    2: Road
+    3: Bare soil
+    4: Cotton
+    5: Cotton firewood
+    6: Rape
+    7: Chinese cabbage
+    8: Pakchoi
+    9: Cabbage
+    10: Tuber mustard
+    11: Brassica parachinensis
+    12: Brassica chinensis
+    13: Small Brassica chinensis
+    14: Lactuca sativa
+    15: Celtuce
+    16: Film-covered lettuce
+    17: Romaine lettuce
+    18: Carrot
+    19: White radish
+    20: Garlic sprout
+    21: Broad bean
+    22: Tree
+  seen_classes: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+  unseen_classes: [1]
+model:
+  backbone: spectral_morphology
+  feature_dim: 64
+  freeze_backbone: true
+spectral_mae:
+  feature_dim: 64
+  hidden_dim: 256
+  mask_ratio: 0.3
+  mae_weight: 1.0
+  supcon_weight: 0.1
+  temperature: 0.2
+  epochs: 100
+  batch_size: 512
+  lr: 0.001
+  weight_decay: 0.0001
+  checkpoint: checkpoints/honghu_p1_backbone.pt
+runtime:
+  device: auto
+  num_workers: 0
+  seed: 42
+data_split:
+  normalization: seen_train
+  train_ratio: 0.2
+  seed: 42

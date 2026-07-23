@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "OA": 86.46861901144963,
+    "AA": 89.8352494250318,
+    "Kappa": 0.8259334462865286,
+    "Seen_AA": 92.97009972923527,
+    "Unseen_AA": 64.75644699140402,
+    "H": 76.33988646901591
+  },
+  "results": [
+    {
+      "unseen": 1,
+      "metrics": {
+        "OA": 86.46861901144963,
+        "AA": 89.8352494250318,
+        "Kappa": 0.8259334462865286,
+        "Seen_AA": 92.97009972923527,
+        "Unseen_AA": 64.75644699140402,
+        "H": 76.33988646901591,
+        "Acc_Seen": 92.97009972923527,
+        "Acc_Unseen": 64.75644699140402,
+        "H-score": 76.33988646901591,
+        "per_class": {
+          "0": 91.34660500033515,
+          "1": 86.06313281715306,
+          "2": 96.08323133414932,
+          "3": 99.90706319702602,
+          "4": 92.36887894606015,
+          "5": 94.45488721804512,
+          "6": 83.53699932111337,
+          "7": 100.0,
+          "8": 64.75644699140402
+        }
+      }
+    }
+  ],
+  "protocol": {
+    "strict_inductive": true,
+    "model_selection": "fixed_preregistered_budget",
+    "test_evaluations_per_split": 1,
+    "unseen_visual_data_used_for_training": false
+  },
+  "hyperparameters": {
+    "epochs": 100,
+    "classifier_epochs": 25,
+    "batch_size": 64,
+    "synthetic_per_class": 100,
+    "hidden_dim": 512,
+    "critic_steps": 1
+  }
+}

@@ -1,0 +1,50 @@
+dataset:
+  name: PaviaU
+  raw_dir: data/raw
+  processed_dir: data/processed
+  data_file: Pavia_University/PaviaU.mat
+  gt_file: Pavia_University/PaviaU_gt.mat
+  data_key: paviaU
+  gt_key: paviaU_gt
+classes:
+  names:
+    1: Asphalt
+    2: Meadows
+    3: Gravel
+    4: Trees
+    5: Painted Metal Sheets
+    6: Bare Soil
+    7: Bitumen
+    8: Self-Blocking Bricks
+    9: Shadows
+  seen_classes: [2, 3, 4, 5, 6, 7, 8, 9]
+  unseen_classes: [1]
+text:
+  provider: deepseek
+  base_url: https://api.deepseek.com
+  model: deepseek-v4-flash
+  api_key_env: DEEPSEEK_API_KEY
+  cache_file: data/processed/PaviaU_text_descriptions.json
+model:
+  backbone: spectral_morphology
+  feature_dim: 64
+  freeze_backbone: true
+spectral_mae:
+  feature_dim: 64
+  hidden_dim: 256
+  mask_ratio: 0.3
+  mae_weight: 1.0
+  supcon_weight: 0.1
+  temperature: 0.2
+  epochs: 100
+  batch_size: 512
+  lr: 0.001
+  weight_decay: 0.0001
+runtime:
+  device: auto
+  num_workers: 0
+  seed: 42
+data_split:
+  normalization: seen_train
+  train_ratio: 0.2
+  seed: 42

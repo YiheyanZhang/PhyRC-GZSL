@@ -1,0 +1,52 @@
+dataset:
+  name: IndianPines
+  raw_dir: data/raw
+  processed_dir: data/processed
+  data_file: Indian_Pines/Indian_pines_corrected.mat
+  gt_file: Indian_Pines/Indian_pines_gt.mat
+  data_key: indian_pines_corrected
+  gt_key: indian_pines_gt
+classes:
+  names:
+    1: Alfalfa
+    2: Corn-notill
+    3: Corn-mintill
+    4: Corn
+    5: Grass-pasture
+    6: Grass-trees
+    7: Grass-pasture-mowed
+    8: Hay-windrowed
+    9: Oats
+    10: Soybean-notill
+    11: Soybean-mintill
+    12: Soybean-clean
+    13: Wheat
+    14: Woods
+    15: Buildings-Grass-Trees-Drives
+    16: Stone-Steel-Towers
+  seen_classes: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+  unseen_classes: [1]
+model:
+  backbone: spectral_morphology
+  feature_dim: 64
+  freeze_backbone: true
+spectral_mae:
+  feature_dim: 64
+  hidden_dim: 256
+  mask_ratio: 0.3
+  mae_weight: 1.0
+  supcon_weight: 0.1
+  temperature: 0.2
+  epochs: 100
+  batch_size: 512
+  lr: 0.001
+  weight_decay: 0.0001
+  checkpoint: checkpoints/indian_pines_p1_backbone.pt
+runtime:
+  device: auto
+  num_workers: 0
+  seed: 42
+data_split:
+  normalization: seen_train
+  train_ratio: 0.2
+  seed: 42
